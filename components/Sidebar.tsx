@@ -13,8 +13,8 @@ import SidebarRow from './SidebarRow'
 
 function Sidebar() {
   return (
-    <div className='flex flex-col'>
-        <img className='h-10 w-10' src='https://ra.ac.ae/wp-content/uploads/2020/01/logo-twitter-icon-symbol-0.png' alt=""/>
+    <div className='flex flex-col col-span-2 items-center px-4 md:items-start'>
+        <img className='m-3 h-10 w-10' src='https://ra.ac.ae/wp-content/uploads/2020/01/logo-twitter-icon-symbol-0.png' alt=""/>
         <SidebarRow Icon={HomeIcon} title="Home" />
         <SidebarRow Icon={HashtagIcon} title="Explore" />
         <SidebarRow Icon={BellIcon} title="Notifications" />
