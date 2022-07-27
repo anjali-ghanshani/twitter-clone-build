@@ -12,7 +12,7 @@ function SidebarRow({Icon, title}: Props) {
     {/* CSS Flexible Box Layout, commonly known as Flexbox, is a CSS 3 web layout model. It is in the W3C's candidate recommendation stage. The flex layout allows responsive elements within a container to be automatically arranged depending upon screen size. */}
     {/* flex puts elements in row */}
         <Icon className='h-6 w-6'/>
-        <p className='hidden group-hover:text-twitter md:inline text-base font-light lg:text-xl'>{title}</p>
+        <p className='hidden group-hover:text-twitter md:inline-flex text-base font-light lg:text-xl'>{title}</p>
     </div>
   )
 }
