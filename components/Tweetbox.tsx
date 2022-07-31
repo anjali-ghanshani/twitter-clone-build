@@ -12,7 +12,7 @@ function Tweetbox() {
   return (
     <div className="flex sapce-x-2 p-5">
       <img
-        className="mt-4 h-14 w-14 object-cover rounded-full cursor-pointer mt-4"
+        className="h-14 w-14 object-cover rounded-full cursor-pointer mt-4"
         src="https://links.papareact.com/gll"
         alt=""
       />
