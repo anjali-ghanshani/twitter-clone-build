@@ -20,6 +20,6 @@ export default async function handler(
       tweetId, // this should ne {tweetId: tweetId} (since key and value are same we can leave it like so)
   })
 
-  console.log('Comments >>>', comments);
+//  console.log('Comments >>>', comments);
   res.status(200).json(comments);
 }

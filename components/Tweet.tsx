@@ -22,7 +22,7 @@ function Tweet({ tweet }: Props) {
   },[])
 
 
-  console.log(comments);
+  // console.log(comments);
   return (
     <div>
       <div className="flex space-x-3 flex-col border-y p-5 border-gray-100">
