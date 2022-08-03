@@ -35,7 +35,7 @@ export default async function handler(
       Authorization: `Bearer ${process.env.SANITY_API_TOKEN}`,
     },
     body: JSON.stringify(mutations),
-    method: "post",
+    method: 'POST',
   });
 
   const json = await result.json();

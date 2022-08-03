@@ -21,10 +21,8 @@ export default async function handler(
           username: comment.username,
           porfileImg: comment.profileImg,
           tweet: {
-            _ref: {
-              _type: "reference",
-              _ref: comment.tweetId,
-            },
+            _type: "reference",
+            _ref: comment.tweetId,
           },
         },
       },
@@ -39,9 +37,10 @@ export default async function handler(
       Authorization: `Bearer ${process.env.SANITY_API_TOKEN}`,
     },
     body: JSON.stringify(mutations),
-    method: "post",
+    method: "POST",
   });
 
   const json = await result.json();
-  res.status(200).json({ message: "Commented!" });
+  console.log(json)
+  res.status(200).json({ message: "Done!" });
 }
