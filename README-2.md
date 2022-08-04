@@ -14,3 +14,23 @@ Implementing ability to BAN a tweet via the Sanity Platform
 -  implement Tweet Functionality & the ability to write a thread of comments!
 - smooth `React Toast Notifications`!
 - Deploy to `Vercel` 
+
+
+
+hit terminal 
+```cd /<local-repo-path>/twitter-clone```
+```npm install```
+
+If the installations is success then,
+
+```npm run dev```
+
+```cd /<local-repo-path>/twitter-clone/sanity```
+
+```sanity start```
+
+go to http://localhost:3000
+
+test the comment and tweet functionality.
+
+and authentication Via google and twitter as well.
