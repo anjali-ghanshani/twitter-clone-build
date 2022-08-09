@@ -3,7 +3,7 @@ import { groq } from "next-sanity";
 import { sanityClient } from "../../sanity";
 import { Comment } from "../../typings";
 
-const commentQuery = groq`*[_type == 'comment' && references(*[_type == 'tweet' && _id =='0517ac81-fe11-4345-b008-d4e5869abd00']._id)] {
+const commentQuery = groq`*[_type == 'comment' && references(*[_type == 'tweet' && _id == $tweetId]._id)] {
     _id,
     ...
   } | order(_createdAt desc)`;

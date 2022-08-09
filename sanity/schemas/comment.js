@@ -19,8 +19,8 @@ export default {
       type: 'string',
     },
     {
-      name: 'blockTweet',
-      title: 'Block Tweet',
+      name: 'tweet',
+      title: 'Tweet',
       description: 'Reference the Tweet the comment is associated to:',
       type: 'reference',
       to: {
