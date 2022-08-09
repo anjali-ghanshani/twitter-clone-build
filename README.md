@@ -15,10 +15,9 @@ Twitter clone is an attempt to understand the development of enterprise grade we
 Web url: <https://twitter-clone-build.vercel.app/>
 
 Screenshots:
-
-
-![login authentication](images/Google-n-twitter-Auth.png)
-![twitter-clone-demo-ss](images/twitter-clone-ss.png)
-
+![ login authentication ](images/Google-n-twitter-Auth.png)
+![ twitter-clone demo ss](images/twitter-clone-ss.png)
+![ twitter-signin](images/twitter-signin1.png)
+![ google-signin](images/google-signin.png)
 
 
